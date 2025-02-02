@@ -1,0 +1,10 @@
+from typing import List
+
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        digits = ''.join(map(str,digits))
+        digits = int(digits) + 1
+        digits = str(digits)
+        return list(map(int,digits))
+sol = Solution()
+print(sol.plusOne([1,2,3]))

@@ -6,8 +6,3 @@ class Solution:
                     continue
                 if num + number == target:
                     return [i,j]
-
-lst1 = [3,3]
-
-sol = Solution()
-print(sol.twoSum(lst1, 6))
