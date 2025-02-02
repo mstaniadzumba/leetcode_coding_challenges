@@ -6,5 +6,5 @@ class Solution:
         digits = int(digits) + 1
         digits = str(digits)
         return list(map(int,digits))
-sol = Solution()
-print(sol.plusOne([1,2,3]))
+
+
